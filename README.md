@@ -1,4 +1,4 @@
-<!-- docs: sync from coderbuzz/codex@46af4b9 -->
+<!-- docs: sync from coderbuzz/codex@7af404c -->
 
 # Velox Wire Server &mdash; `@coderbuzz/velox-ws-wire-server`
 
@@ -36,7 +36,7 @@ Wire Server provides `wireProtocol()` — a Velox middleware that handles the bi
 npm install @coderbuzz/velox @coderbuzz/velox-ws-wire @coderbuzz/velox-ws-wire-server
 ```
 
-Requires `@coderbuzz/velox` (HTTP framework) and `@coderbuzz/velox-ws-wire` (binary codec).
+Both `@coderbuzz/velox` and `@coderbuzz/velox-ws-wire` are required as peer dependencies.
 
 ---
 
