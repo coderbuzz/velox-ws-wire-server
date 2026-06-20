@@ -1,4 +1,4 @@
-<!-- docs: sync from coderbuzz/codex@8a99d5c -->
+<!-- docs: sync from coderbuzz/codex@cd4a13b -->
 
 # Velox Wire Server &mdash; `@coderbuzz/velox-ws-wire-server`
 
@@ -6,6 +6,10 @@
 > AI agents: see [AI_KNOWLEDGE.md](https://github.com/coderbuzz/velox-ws-wire-server/blob/main/AI_KNOWLEDGE.md) for expert context.
 
 Wire Server provides `wireProtocol()` — a Velox middleware that handles the binary WebSocket Wire Protocol transparently. Authentication, heartbeat, pub/sub, request-response correlation are all managed internally. Your handler receives only domain messages.
+
+---
+
+**Client counterpart** — use with `@coderbuzz/velox-ws-wire-client` for end-to-end binary WebSocket communication, or any client implementing the Wire Protocol via `@coderbuzz/velox-ws-wire`.
 
 ---
 
