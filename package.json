@@ -1,0 +1,13 @@
+{
+  "name": "@coderbuzz/velox-ws-wire-server-ci",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "bun test"
+  },
+  "devDependencies": {
+    "@coderbuzz/velox-ws-wire-server": "latest",
+    "@coderbuzz/velox": "latest",
+    "@coderbuzz/velox-ws-wire": "latest"
+  }
+}
