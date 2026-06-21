@@ -1,4 +1,4 @@
-<!-- docs: sync from coderbuzz/codex@e5210d1 -->
+<!-- docs: sync from coderbuzz/codex@e9b6bce -->
 
 # Velox Wire Server &mdash; `@coderbuzz/velox-ws-wire-server`
 
@@ -9,8 +9,8 @@
   <a href="https://www.npmjs.com/package/@coderbuzz/velox-ws-wire-server"><img src="https://img.shields.io/npm/dm/@coderbuzz/velox-ws-wire-server.svg?style=flat-square" alt="npm downloads" /></a>
   <a href="https://github.com/coderbuzz/velox-ws-wire-server/blob/main/LICENSE"><img src="https://img.shields.io/github/license/coderbuzz/velox-ws-wire-server.svg?style=flat-square" alt="MIT License" /></a>
   <a href="https://github.com/coderbuzz/velox-ws-wire-server"><img src="https://img.shields.io/github/stars/coderbuzz/velox-ws-wire-server.svg?style=flat-square" alt="GitHub Stars" /></a>
-  <a href="https://github.com/coderbuzz/codex/actions/workflows/ci.velox-ws-wire-server.yml"><img src="https://github.com/coderbuzz/codex/actions/workflows/ci.velox-ws-wire-server.yml/badge.svg" alt="CI" /></a>
-  <a href="https://codecov.io/gh/coderbuzz/codex"><img src="https://codecov.io/gh/coderbuzz/codex/graph/badge.svg?flag=velox-ws-wire-server" alt="Codecov" /></a>
+  <a href="https://github.com/coderbuzz/velox-ws-wire-server/actions/workflows/ci.yml"><img src="https://github.com/coderbuzz/velox-ws-wire-server/actions/workflows/ci.yml/badge.svg" alt="CI" /></a>
+  <a href="https://codecov.io/gh/coderbuzz/velox-ws-wire-server"><img src="https://codecov.io/gh/coderbuzz/velox-ws-wire-server/graph/badge.svg" alt="Codecov" /></a>
 </p>
 
 Wire Server provides `wireProtocol()` — a Velox middleware that handles the binary WebSocket Wire Protocol transparently. Authentication, heartbeat, pub/sub, request-response correlation are all managed internally. Your handler receives only domain messages.
