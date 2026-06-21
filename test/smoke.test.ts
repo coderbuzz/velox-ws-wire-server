@@ -1,5 +1,5 @@
 import { test, expect } from "bun:test";
-import { wireProtocol } from "@coderbuzz/velox-ws-wire-server";
+import { wireProtocol } from "../src/index";
 
 test("wireProtocol is a function", () => {
   expect(typeof wireProtocol).toBe("function");
