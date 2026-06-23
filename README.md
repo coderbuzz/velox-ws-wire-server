@@ -1,4 +1,4 @@
-<!-- docs: sync from coderbuzz/codex@e9b6bce -->
+<!-- docs: sync from coderbuzz/codex@b1e2bde -->
 
 # Velox Wire Server &mdash; `@coderbuzz/velox-ws-wire-server`
 
